@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scraping MercadoLibre</title>
+    <link rel="stylesheet" href="static/css/estilos.css">
+  </head>
+  <body>
+
+    <form class="formulario"  method="post">
+      <h1 class="formulario__titulo">Realice su busqueda</h1>
+      <input type="text" class="formulario__input">
+      <label for=""
+      class="formulario__label">Ingrese su busqueda</label>
+      <input type="text" class="formulario__input">
+      <label for=""
+      class="formulario__label">Cantidad requerida de resultados</label>
+      <input type="submit" href="Scraping.py"  value="Consultar" id="Consultar" class="formulario__submit">
+     
+    </form>      
+    <div class="container">
+      <h2>Ha tenido éxito</h2>
+      <p>Los resultados de su busqueda son:</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>producto</th>
+            <th>Precio</th>
+            <th>Entrega Gratis</th>
+          </tr>
+        </thead>
+        <tbody>
+        
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
